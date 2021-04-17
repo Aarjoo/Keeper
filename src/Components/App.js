@@ -44,16 +44,11 @@ function App() {
       const actualData = item[0];
       actualData.id=id;
       console.log(actualData);
-      takeData(actualData);
-      
+      takeData(actualData); 
     }
-
     const editData = (newData, id) => {
-     
       notes.splice(id,1,newData);
     }
-
-  
   return (
     <div>
     <Header />
