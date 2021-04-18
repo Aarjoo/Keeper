@@ -1,6 +1,7 @@
 {
   "name": "keeper",
   "version": "0.1.0",
+  "type": "module",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.3",
@@ -10,6 +11,8 @@
     "@testing-library/user-event": "^12.8.3",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.12.4",
     "passport": "^0.4.1",
     "passport-google-oauth20": "^2.0.0",
     "passport-local": "^1.0.0",

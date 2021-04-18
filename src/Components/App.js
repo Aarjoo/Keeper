@@ -49,6 +49,8 @@ function App() {
     const editData = (newData, id) => {
       notes.splice(id,1,newData);
     }
+
+
   return (
     <div>
     <Header />
